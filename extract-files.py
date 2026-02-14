@@ -20,7 +20,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/miuicamera-marble',
+    'device/xiaomi/miuicamera-onyx',
 ]
 
 def lib_fixup_system_suffix(lib: str, partition: str, *args, **kwargs):
@@ -48,7 +48,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'miuicamera-marble',
+    'miuicamera-onyx',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

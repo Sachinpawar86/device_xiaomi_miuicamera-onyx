@@ -1,1 +1,1 @@
-cat vendor/xiaomi/miuicamera-marble/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk.part* > vendor/xiaomi/miuicamera-marble/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk
+cat vendor/xiaomi/miuicamera-onyx/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk.part* > vendor/xiaomi/miuicamera-onyx/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk
